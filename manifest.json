@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Wameiz GD Translator",
+    "version": "0.0.1",
+    "description": "Graceful Duskを日本語化したかった",
+    "content_scripts": [{
+        "matches": [
+            "http://gracefuldusk.appspot.com/*",
+            "https://gracefuldusk.appspot.com/*"
+        ],
+        "js": [
+            "built/load.js"
+        ],
+        "run_at": "document_start"
+    }],
+    "web_accessible_resources": [
+        "built/bundle.js"
+    ]
+}

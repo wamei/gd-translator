@@ -1,0 +1,23 @@
+{
+  "name": "wameiz-gd-translator",
+  "version": "0.0.1",
+  "description": "Graceful Duskを日本語化したかった",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "author": "wamei",
+  "email": "wamei.cho@gmail.com",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-load-plugins": "^1.0.0",
+    "run-sequence": "^1.1.4",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "license": "MIT"
+}
